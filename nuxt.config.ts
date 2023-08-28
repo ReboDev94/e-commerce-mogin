@@ -1,10 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
   colorMode: {
     preference: 'mogin',
     dataValue: 'theme',
     classSuffix: '',
   },
+  googleFonts: {
+    families: {
+      Quicksand: true,
+    },
+  },
+  css: ['@/assets/css/main.css'],
 });
