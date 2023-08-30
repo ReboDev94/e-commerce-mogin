@@ -1,4 +1,3 @@
-import { SvgoIconHeart, FilterProducts, CardProduct } from '../.nuxt/components';
 <template>
   <div class="mx-auto max-w-screen-2xl">
     <Navbar />
@@ -10,18 +9,18 @@ import { SvgoIconHeart, FilterProducts, CardProduct } from '../.nuxt/components'
             <SvgoIconFilter class="text-xl" />
           </button>
           <div tabindex="0" class="mt-3 z-[1] shadow-md dropdown-content bg-base-100 rounded-box">
-            <FilterProduct />
+            <ProductFilter />
           </div>
         </div>
       </div>
       <div class="divider col-span-12"></div>
       <div class="hidden lg:block lg:col-span-3">
-        <FilterProduct />
+        <ProductFilter />
       </div>
       <div class="col-span-12 lg:col-span-9">
         <div class="grid grid-cols-12 gap-4">
           <div v-for="(item, index) in 20" :key="index" class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-            <CardProduct />
+            <ProductCard />
           </div>
         </div>
       </div>

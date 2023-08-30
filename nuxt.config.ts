@@ -12,5 +12,10 @@ export default defineNuxtConfig({
       Quicksand: true,
     },
   },
+  components: [
+    { path: '~/components/product', prefix: 'Product' },
+    { path: '~/components/navbar', prefix: 'Navbar' },
+    '~/components',
+  ],
   css: ['@/assets/css/main.css'],
 });
