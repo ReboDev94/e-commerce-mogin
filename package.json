@@ -6,15 +6,26 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "eslint:check": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
+    "prettier:check": "prettier --check .",
+    "lint": "npm run eslint:check && npm run prettier:check",
+    "lint:fix": "prettier --write --list-different . && npm run eslint:check --fix"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.9",
+    "@typescript-eslint/parser": "^6.5.0",
     "daisyui": "^3.6.3",
-    "nuxt": "^3.7.0"
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nuxt": "^3.7.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }

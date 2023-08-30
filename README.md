@@ -1,6 +1,5 @@
 # E-COMMERCE-MOGIN
 
-
 ## Setup
 
 Make sure to install the dependencies:
