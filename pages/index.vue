@@ -1,6 +1,7 @@
 <template>
   <div class="mx-auto max-w-screen-2xl">
     <Navbar />
+    <Carousel />
     <div class="mx-auto px-5 xl:px-0 max-w-screen-xl grid grid-cols-12">
       <div class="lg:hidden col-span-12 flex items-center justify-end">
         <div class="dropdown dropdown-end">
