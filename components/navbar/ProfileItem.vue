@@ -8,7 +8,7 @@
       <li>
         <NuxtLink to="/login">
           <SvgoIconLogin class="text-xl" />
-          Iniciar sesiónn
+          Iniciar sesión
         </NuxtLink>
       </li>
       <li>
