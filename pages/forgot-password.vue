@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+definePageMeta({
+  layout: false,
+});
+</script>
 <template>
   <div class="min-h-screen w-full grid place-content-center p-4 lg:py-0">
     <div class="card shadow-xl max-w-lg">

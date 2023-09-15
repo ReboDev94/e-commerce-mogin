@@ -11,7 +11,7 @@
         <span class="font-bold text-lg">8 Productos</span>
         <span class="text-info">Subtotal: $999.00</span>
         <div class="card-actions">
-          <button class="btn btn-primary btn-block">Ver carrito</button>
+          <nuxt-link to="/cart" class="btn btn-primary btn-block">Ver carrito</nuxt-link>
         </div>
       </div>
     </div>

@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+definePageMeta({
+  layout: false,
+});
+</script>
 <template>
   <NuxtLayout name="auth-layout">
     <p class="text-center text-xl">¡Registrate!</p>
