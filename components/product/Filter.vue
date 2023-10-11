@@ -2,7 +2,7 @@
   <ul class="menu w-56 rounded-box">
     <li>
       <h2 class="menu-title">Categorias</h2>
-      <ul>
+      <ul class="space-y-1">
         <li><a class="active font-bold">Todos</a></li>
         <li><a>Botana</a></li>
         <li><a>Brandy</a></li>

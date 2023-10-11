@@ -17,7 +17,7 @@
       <ProductFilter />
     </div>
     <div class="col-span-12 lg:col-span-9">
-      <div class="grid grid-cols-12 gap-4">
+      <div class="grid grid-cols-12 gap-4 mb-4">
         <div v-for="(item, index) in 20" :key="index" class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
           <ProductCard />
         </div>

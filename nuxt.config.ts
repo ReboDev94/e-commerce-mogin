@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     { path: '~/components/navbar', prefix: 'Navbar' },
     { path: '~/components/carousel', prefix: 'Carousel' },
     { path: '~/components/cart', prefix: 'Cart' },
+    { path: '~/components/profile', prefix: 'Profile' },
     '~/components',
   ],
   css: ['@/assets/css/main.css'],

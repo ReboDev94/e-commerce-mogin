@@ -18,13 +18,19 @@
         </NuxtLink>
       </li>
 
-      <!-- <li>
-        <a> Perfil </a>
+      <li>
+        <NuxtLink to="/profile">
+          <SvgoIconUser class="text-xl" />
+          Perfil
+        </NuxtLink>
       </li>
-      <li><a>Direcciones</a></li>
-      <li><a>Metodos de pago</a></li>
-      <li><a>Pedidos</a></li>
-      <li><a>Cerrar sesión</a></li> -->
+
+      <li>
+        <NuxtLink to="/login">
+          <SvgoIconLogout class="text-xl" />
+          Cerrar sesión
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>

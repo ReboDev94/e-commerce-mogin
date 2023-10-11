@@ -1,5 +1,4 @@
 <template>
-  <!-- h-40 -->
   <div class="bg-base-100 p-3 border lg:border-none flex flex-col gap-2 rounded-lg shadow-lg">
     <h1 class="text-xl font-semibold">Resumen de la compra</h1>
     <div class="flex justify-between">
