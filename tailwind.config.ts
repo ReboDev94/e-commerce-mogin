@@ -2,8 +2,7 @@ import type { Config } from 'tailwindcss';
 /** @type {import('tailwindcss').Config} */
 export default <Partial<Config>>{
   darkMode: 'class',
-  content: [],
-  plugins: [require('@tailwindcss/typography'), require('daisyui')],
+  content: ['content/**/**.md'],
   daisyui: {
     themes: [
       {
@@ -21,4 +20,8 @@ export default <Partial<Config>>{
       },
     ],
   },
+  variants: {
+    display: ['responsive'],
+  },
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
 };
