@@ -9,53 +9,52 @@
     </div>
 
     <div class="divider" />
-    <div className="grid grid-cols-12">
-      <div className="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
-        <h2 className="font-semibold">Nombre completo</h2>
-        <span className="text-xs text-neutral">Escribe tu nombre completo</span>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
+        <h2 class="font-semibold">Nombre completo</h2>
+        <span class="text-xs text-neutral">Escribe tu nombre completo</span>
       </div>
-      <div className="col-span-12 md:col-start-5 md:col-end-10 my-auto">
+      <div class="col-span-12 md:col-start-5 md:col-end-10 my-auto">
         <input type="text" placeholder="Yaretzin Araujo Delgado" class="input input-md input-bordered w-full" />
       </div>
     </div>
-
     <div class="divider" />
-    <div className="grid grid-cols-12">
-      <div className="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
-        <h5 className="font-semibold">Teléfono celular</h5>
-        <span className="text-xs text-base-500">Escribe tu número de teléfono celular</span>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
+        <h5 class="font-semibold">Teléfono celular</h5>
+        <span class="text-xs text-base-500">Escribe tu número de teléfono celular</span>
       </div>
-      <div className="col-span-12 md:col-start-5 md:col-end-10 my-auto">
+      <div class="col-span-12 md:col-start-5 md:col-end-10 my-auto">
         <input type="text" placeholder="7471222324" class="input input-md input-bordered w-full" />
       </div>
     </div>
     <div class="divider" />
-    <div className="grid grid-cols-12">
-      <div className="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
-        <h5 className="font-semibold">Correo electrónico</h5>
-        <span className="text-xs text-base-500">Escribe tu correo electrónico</span>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
+        <h5 class="font-semibold">Correo electrónico</h5>
+        <span class="text-xs text-base-500">Escribe tu correo electrónico</span>
       </div>
-      <div className="col-span-12 md:col-start-5 md:col-end-10 my-auto">
+      <div class="col-span-12 md:col-start-5 md:col-end-10 my-auto">
         <input type="text" placeholder="example@gmail.com" class="input input-md input-bordered w-full" />
       </div>
     </div>
     <div class="divider" />
-    <div className="grid grid-cols-12">
-      <div className="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
-        <h5 className="font-semibold">Fecha de nacimiento</h5>
-        <span className="text-xs text-base-500">Selecciona tu fecha de nacimiento</span>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
+        <h5 class="font-semibold">Fecha de nacimiento</h5>
+        <span class="text-xs text-base-500">Selecciona tu fecha de nacimiento</span>
       </div>
-      <div className="col-span-12 md:col-start-5 md:col-end-10 my-auto">
+      <div class="col-span-12 md:col-start-5 md:col-end-10 my-auto">
         <input type="date" class="input input-md input-bordered w-full" />
       </div>
     </div>
     <div class="divider" />
-    <div className="grid grid-cols-12">
-      <div className="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
-        <h5 className="font-semibold">Foto de perfil (opcional)</h5>
-        <span className="text-xs text-base-500">Selecciona una foto de perfil</span>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 mb-2 md:col-span-4 md:mb-0 md:pr-2">
+        <h5 class="font-semibold">Foto de perfil (opcional)</h5>
+        <span class="text-xs text-base-500">Selecciona una foto de perfil</span>
       </div>
-      <div className="col-span-12 md:col-start-5 md:col-end-10 my-auto">
+      <div class="col-span-12 md:col-start-5 md:col-end-10 my-auto">
         <input type="file" class="file-input file-input-bordered w-full file-input-md" />
       </div>
     </div>
