@@ -20,8 +20,5 @@ export default <Partial<Config>>{
       },
     ],
   },
-  variants: {
-    display: ['responsive'],
-  },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
 };
