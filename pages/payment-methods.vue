@@ -2,7 +2,9 @@
   <NuxtLayout name="profile-layout">
     <div class="grid grid-cols-12 gap-3">
       <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
-        <div class="h-36 shadow hover:shadow-xl card border-2 border-success/50 hover:cursor-pointer">
+        <div
+          class="h-36 shadow hover:shadow-xl card border-2 border-success/50 hover:cursor-pointer"
+        >
           <div class="card-body grid place-content-center">
             <div class="btn btn-circle btn-success">
               <SvgoIconAdd class="text-xl text-base-100" />
@@ -25,27 +27,53 @@
           "
         >
           <div class="card-body relative">
-            <div class="w-8 h-8 rounded-full bg-base-100 absolute top-4 left-4 grid place-content-center">
+            <div
+              class="w-8 h-8 rounded-full bg-base-100 absolute top-4 left-4 grid place-content-center"
+            >
               <SvgoIconAmex v-if="type === 'amex'" class="text-2xl" filled />
               <SvgoIconVisa v-if="type === 'visa'" class="text-2xl" filled />
-              <SvgoIconMastercard v-if="type === 'mastercard'" class="text-2xl" filled />
+              <SvgoIconMastercard
+                v-if="type === 'mastercard'"
+                class="text-2xl"
+                filled
+              />
             </div>
-            <input type="radio" name="radio-card" class="radio radio-success bg-base-100 absolute top-2 right-2" />
-            <div class="text-base-100 absolute inset-x-0 bottom-4 px-4 text-sm flex flex-col gap-1">
+            <input
+              type="radio"
+              name="radio-card"
+              class="radio radio-success bg-base-100 absolute top-2 right-2"
+            />
+            <div
+              class="text-base-100 absolute inset-x-0 bottom-4 px-4 text-sm flex flex-col gap-1"
+            >
               <p class="font-bold">•••• •••• •••• {{ lastNumber }}</p>
-              <p class="uppercase line-clamp-1 text-xs font-black">{{ name }}</p>
+              <p class="uppercase line-clamp-1 text-xs font-black">
+                {{ name }}
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
-        <div class="h-36 shadow hover:shadow-xl card bg-gradient-to-r from-green-600 to-green-300 hover:cursor-pointer">
+        <div
+          class="h-36 shadow hover:shadow-xl card bg-gradient-to-r from-green-600 to-green-300 hover:cursor-pointer"
+        >
           <div class="card-body relative">
-            <div class="w-8 h-8 rounded-full bg-base-100 absolute top-4 left-4 grid place-content-center">
+            <div
+              class="w-8 h-8 rounded-full bg-base-100 absolute top-4 left-4 grid place-content-center"
+            >
               <SvgoIconMoney class="text-2xl text-green-600" />
             </div>
-            <input type="radio" name="radio-card" class="radio radio-success bg-base-100 absolute top-2 right-2" />
-            <p class="font-black text-base-100 absolute inset-x-0 bottom-4 px-4 text-sm">Efectivo</p>
+            <input
+              type="radio"
+              name="radio-card"
+              class="radio radio-success bg-base-100 absolute top-2 right-2"
+            />
+            <p
+              class="font-black text-base-100 absolute inset-x-0 bottom-4 px-4 text-sm"
+            >
+              Efectivo
+            </p>
           </div>
         </div>
       </div>

@@ -12,19 +12,34 @@ const router = useRouter();
         <label class="label">
           <span class="label-text">Correo electrónico:</span>
         </label>
-        <input type="text" placeholder="example@example.com" class="input input-bordered w-full" />
+        <input
+          type="text"
+          placeholder="example@example.com"
+          class="input input-bordered w-full"
+        />
       </div>
       <div class="form-control">
         <label class="label">
           <span class="label-text">Contraseña:</span>
         </label>
-        <input type="password" placeholder="********" class="input input-bordered w-full" />
+        <input
+          type="password"
+          placeholder="********"
+          class="input input-bordered w-full"
+        />
         <label class="label">
-          <NuxtLink to="/forgot-password" class="link link-hover label-text-alt"> ¿Olvidaste tu contraseña? </NuxtLink>
+          <NuxtLink
+            to="/forgot-password"
+            class="link link-hover label-text-alt"
+          >
+            ¿Olvidaste tu contraseña?
+          </NuxtLink>
         </label>
       </div>
 
-      <button class="btn btn-primary" @click="router.push('/')">Iniciar sesión</button>
+      <button class="btn btn-primary" @click="router.push('/')">
+        Iniciar sesión
+      </button>
       <div class="divider">o</div>
       <div class="flex flex-col md:flex-row gap-2">
         <button class="w-full md:w-1/2 text-[10px] btn btn-ghost">

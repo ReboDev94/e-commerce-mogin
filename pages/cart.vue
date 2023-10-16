@@ -6,7 +6,9 @@
     <div class="col-span-12 lg:col-span-8">
       <CartProducts />
     </div>
-    <div class="col-span-12 lg:col-span-4 fixed lg:static bottom-0 right-0 left-0">
+    <div
+      class="col-span-12 lg:col-span-4 fixed lg:static bottom-0 right-0 left-0"
+    >
       <CartDetail />
     </div>
   </div>

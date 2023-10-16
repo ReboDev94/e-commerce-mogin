@@ -5,7 +5,9 @@
     </figure>
     <div class="card-body p-5">
       <h2 class="card-title">Azulitro</h2>
-      <p class="text-xs line-clamp-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p class="text-xs line-clamp-2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
       <div class="card-actions justify-between">
         <button class="btn btn-ghost btn-circle">
           <SvgoIconHeart class="text-xl" />

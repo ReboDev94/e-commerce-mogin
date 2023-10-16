@@ -6,10 +6,17 @@ export const useCarousel = <T>() => {
     items.value = data;
     if (items.value.length > 0) indexSelected.value = 0;
   };
-  const itemSelected = computed<T | null>(() => items.value[indexSelected.value] || null);
+  const itemSelected = computed<T | null>(
+    () => items.value[indexSelected.value] || null,
+  );
 
-  const hasPrevious = computed(() => items.value.length > 0 && indexSelected.value > 0);
-  const hasNext = computed(() => items.value.length > 0 && indexSelected.value < items.value.length - 1);
+  const hasPrevious = computed(
+    () => items.value.length > 0 && indexSelected.value > 0,
+  );
+  const hasNext = computed(
+    () =>
+      items.value.length > 0 && indexSelected.value < items.value.length - 1,
+  );
 
   const previousItem = () => {
     hasPrevious.value && indexSelected.value--;

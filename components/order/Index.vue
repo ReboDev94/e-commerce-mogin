@@ -5,7 +5,15 @@ const { orders } = defineProps<{ orders: IOrder[] }>();
 
 <template>
   <div
-    v-for="{ orderNo, date, products, subtotal, shipping, total, status } in orders"
+    v-for="{
+      orderNo,
+      date,
+      products,
+      subtotal,
+      shipping,
+      total,
+      status,
+    } in orders"
     :key="orderNo"
     class="col-span-12 md:col-span-6 xl:col-span-4 px-3 py-4 border-2 border-dashed border-neutral/30 rounded-md"
   >
@@ -18,10 +26,17 @@ const { orders } = defineProps<{ orders: IOrder[] }>();
           <OrderStatus :status="status" />
         </div>
         <div class="col-span-12 p-2">
-          <OrderDetail :number-products="products.length" :subtotal="subtotal" :shipping="shipping" :total="total" />
+          <OrderDetail
+            :number-products="products.length"
+            :subtotal="subtotal"
+            :shipping="shipping"
+            :total="total"
+          />
         </div>
         <div class="col-span-12 p-2">
-          <button class="btn btn-block btn-sm btn-outline btn-primary">Ver detalle</button>
+          <button class="btn btn-block btn-sm btn-outline btn-primary">
+            Ver detalle
+          </button>
         </div>
       </div>
     </div>

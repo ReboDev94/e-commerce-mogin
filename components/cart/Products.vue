@@ -10,11 +10,15 @@ const products = reactive([1, 2, 3, 4, 5, 6, 7, 8, 9]);
           <div class="flex-1 px-2 py-0">
             <h5 class="font-bold mb-2 line-clamp-1">Azulitro</h5>
             <div class="flex flex-col gap-1">
-              <div class="flex gap-2 uppercase text-[10px] text-neutral font-semibold">
+              <div
+                class="flex gap-2 uppercase text-[10px] text-neutral font-semibold"
+              >
                 <p class="min-w-[4rem]">Precio:</p>
                 <div class="flex-1 text-end">$ 25.00</div>
               </div>
-              <div class="flex items-center gap-2 uppercase text-[10px] text-neutral font-semibold">
+              <div
+                class="flex items-center gap-2 uppercase text-[10px] text-neutral font-semibold"
+              >
                 <p class="min-w-[4rem]">Cantidad:</p>
                 <div class="flex-1 flex gap-1 justify-end">
                   <button class="btn btn-xs btn-circle">-</button>
@@ -26,7 +30,9 @@ const products = reactive([1, 2, 3, 4, 5, 6, 7, 8, 9]);
                   <button class="btn btn-xs btn-circle">+</button>
                 </div>
               </div>
-              <div class="flex gap-2 uppercase text-[10px] text-neutral font-semibold">
+              <div
+                class="flex gap-2 uppercase text-[10px] text-neutral font-semibold"
+              >
                 <p class="min-w-[4rem]">Total:</p>
                 <div class="flex-1 text-end">$ 25.00</div>
               </div>
@@ -54,7 +60,11 @@ const products = reactive([1, 2, 3, 4, 5, 6, 7, 8, 9]);
         <tbody>
           <tr v-for="(item, index) in products" :key="index" class="text-base">
             <td>
-              <img src="/example-1.png" class="h-[6rem] max-h-[6rem] w-[5rem] max-w-[5rem]" alt="drink" />
+              <img
+                src="/example-1.png"
+                class="h-[6rem] max-h-[6rem] w-[5rem] max-w-[5rem]"
+                alt="drink"
+              />
             </td>
             <th>Azulitro</th>
             <td>$ 25.00</td>

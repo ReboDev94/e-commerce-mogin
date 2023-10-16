@@ -8,13 +8,20 @@ definePageMeta({
     <div class="card shadow-xl max-w-lg">
       <div class="card-body text-center gap-5">
         <h2 class="card-title">¡Recupera tu contraseña!</h2>
-        <p>Te enviaremos las intrucciones de recuperación de tu contraseña a tu correo electrónico</p>
+        <p>
+          Te enviaremos las intrucciones de recuperación de tu contraseña a tu
+          correo electrónico
+        </p>
 
         <div class="form-control">
           <label class="label">
             <span class="label-text">Correo electrónico:</span>
           </label>
-          <input type="text" placeholder="example@example.com" class="input input-bordered w-full" />
+          <input
+            type="text"
+            placeholder="example@example.com"
+            class="input input-bordered w-full"
+          />
         </div>
         <div class="card-actions">
           <button class="btn btn-primary btn-block">Enviar</button>

@@ -14,22 +14,36 @@ definePageMeta({
           <label class="label">
             <span class="label-text">Correo electrónico:</span>
           </label>
-          <input type="text" placeholder="example@example.com" class="input input-bordered w-full" />
+          <input
+            type="text"
+            placeholder="example@example.com"
+            class="input input-bordered w-full"
+          />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text">Contraseña:</span>
           </label>
-          <input type="password" placeholder="*********" class="input input-bordered w-full" />
+          <input
+            type="password"
+            placeholder="*********"
+            class="input input-bordered w-full"
+          />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text">Confirmar contraseña:</span>
           </label>
-          <input type="password" placeholder="*********" class="input input-bordered w-full" />
+          <input
+            type="password"
+            placeholder="*********"
+            class="input input-bordered w-full"
+          />
         </div>
         <div class="card-actions">
-          <button class="btn btn-primary btn-block">RECUPERAR CONTRASEÑA</button>
+          <button class="btn btn-primary btn-block">
+            RECUPERAR CONTRASEÑA
+          </button>
         </div>
       </div>
     </div>

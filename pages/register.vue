@@ -11,30 +11,48 @@ definePageMeta({
         <label class="label">
           <span class="label-text">Nombre:</span>
         </label>
-        <input type="text" placeholder="example@example.com" class="input input-bordered w-full" />
+        <input
+          type="text"
+          placeholder="example@example.com"
+          class="input input-bordered w-full"
+        />
       </div>
       <div class="form-control">
         <label class="label">
           <span class="label-text">Correo electrónico:</span>
         </label>
-        <input type="text" placeholder="example@example.com" class="input input-bordered w-full" />
+        <input
+          type="text"
+          placeholder="example@example.com"
+          class="input input-bordered w-full"
+        />
       </div>
       <div class="form-control">
         <label class="label">
           <span class="label-text">Contraseña:</span>
         </label>
-        <input type="password" placeholder="********" class="input input-bordered w-full" />
+        <input
+          type="password"
+          placeholder="********"
+          class="input input-bordered w-full"
+        />
       </div>
       <div class="form-control">
         <label class="label">
           <span class="label-text">Confirmar contraseña:</span>
         </label>
-        <input type="password" placeholder="********" class="input input-bordered w-full" />
+        <input
+          type="password"
+          placeholder="********"
+          class="input input-bordered w-full"
+        />
       </div>
       <div class="form-control">
         <label class="label cursor-pointer flex items-start gap-2">
           <input type="checkbox" class="checkbox checkbox-primary" />
-          <span class="label-text">Acepto los Términos del servicio y la Política de Privacidad</span>
+          <span class="label-text"
+            >Acepto los Términos del servicio y la Política de Privacidad</span
+          >
         </label>
       </div>
       <button class="btn btn-primary">REGISTRARSE</button>
